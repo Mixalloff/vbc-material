@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+
+body {
+  margin: 0;
+}
+
+md-sidenav {
+  width: 200px;
+  padding: 10px;
+}
+
+.main-content {
+  margin: 20px;
+}
+
+.menu-item {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin: 0;
+  padding: 10px;
+  border-color: rgba(0,0,0,.06);
+  color: rgba(0,0,0,.54);
+  text-transform: uppercase;
+  font-size: .9em;
+}
+.menu-item:hover {
+  background: #fafafa;
+  color: #00bcd4;
+  cursor: pointer;
+}
